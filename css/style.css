@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Courier New", sans-serif;
+	background: #353535;
+}
+
+
+/* ***** Layout Principal ***** */
+
+#area-navigation {
+	background: #1B1B1B;
+	height: 5em;	
+}
+
+#area-header {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-logo {
+	float: left;
+	padding: 15px;
+}
+
+#area-menu {
+	float: right;
+	padding: 30px;	
+}
+
+.branco {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	color: indianred;
+	padding: 0 20px;
+}
+
+#area-menu a:hover {
+	background: white;
+	margin: 10px;
+	height: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0px auto;	
+}
+
+#area-destaque {
+	padding-top: 40px;
+	height: 30em;	
+	text-align: center;	
+}
+
+#destaque-1 {	
+	float: left;
+	width: 49.2%;
+	height: 100%;
+	margin-right: 10px;
+	background-image: url(../imagens/imagem5.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: 1em;
+	
+}
+
+#destaque-2 {	
+	float: right;
+	width: 49.2%;
+	height: 100%;		
+}
+
+#destaque-3 {	
+	float: right;
+	width: 100%;
+	height: 49%;
+	margin-bottom: 10px;
+	background-image: url(../imagens/imagem4.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: 0.7em;
+}
+
+#destaque-4 {	
+	float: left;
+	width: 48.85%;
+	height: 48%;
+	margin-right: 10px;
+	background-image: url(../imagens/imagem3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: 0.6em;
+	color: white;
+}
+
+#destaque-5 {
+	float: right;
+	width: 48.85%;
+	height: 48%;
+	background-image: url(../imagens/imagem2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+	font-size: 0.6em;
+	color: white;
+}
+
+.texto_destaque {
+	padding-top: 45%
+}
+
+#area-secundaria {
+	margin: 40px 0px;	
+}
+
+#area-secundaria span {
+	font-size: 0.8em;
+	font-style: italic;
+	color: white;
+}
+
+#area-secundaria a:link, #area-secundaria a:visited {
+	color: indianred;
+}
+
+#area-secundaria a:hover {
+	text-decoration: underline;	
+}
+
+#area-postagem {
+	float: left;	
+	width: 660px;	
+}
+
+.postagem {
+	padding: 10px;	
+	background: #3E3E3E;
+	margin-bottom: 20px;
+}
+
+#area-lateral {
+	float: right;	
+	width: 240px;
+	
+}
+
+.postagem-lateral {
+	padding: 10px;
+	background: #3E3E3E;
+	margin-bottom: 20px;
+}
+
+.conteudo-lateral {
+	margin-top: 20px;
+}
+
+.lateral-link {
+	padding-top: 15px;
+}
+
+#area-rodape {
+	background: #1B1B1B;
+	height: 60px;	
+	clear: both;	
+	margin-bottom: 0px;	
+}
+
+#texto-rodape {
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+/* ***** Formatacoes Gerais ***** */
+
+h1 {
+	color: indianred;
+	font-size: 2.5em;
+}
+
+h3 {
+	color: indianred;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h4 {
+	color: indianred;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 1.4em;
+}
+
+p {
+	color: white;
+	padding: 5px 0px;
+}
+
